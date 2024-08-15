@@ -1,5 +1,5 @@
 import { AIState, initialState } from "./state";
-import { getCompletion } from "./api/completion";
+import { getCompletion } from "@/services/ai";
 import { getFoobarPrompt } from "./prompts/foobar";
 import { z } from "zod";
 
